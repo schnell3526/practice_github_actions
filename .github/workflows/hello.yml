@@ -4,9 +4,9 @@ on:
         branches:
             - main
         paths:
-            - 'sample/*'
-        # paths-ignore:
-        #     - 'sample/**/*.md'
+            - 'sample/**/*.py'
+        paths-ignore:
+            - 'sample/**/*.md'
 jobs:
     hello:
         runs-on: ubuntu-latest

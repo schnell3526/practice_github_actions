@@ -5,8 +5,7 @@ on:
             - main
         paths:
             - 'sample/**/*.py'
-        paths-ignore:
-            - 'sample/**/*.md'
+            - '!sample/**/*.md'
 jobs:
     hello:
         runs-on: ubuntu-latest

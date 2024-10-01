@@ -5,8 +5,8 @@ on:
             - main
         paths:
             - 'sample/*'
-        paths-ignore:
-            - 'sample/**/*.md'
+        # paths-ignore:
+        #     - 'sample/**/*.md'
 jobs:
     hello:
         runs-on: ubuntu-latest

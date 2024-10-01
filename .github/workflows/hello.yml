@@ -1,5 +1,12 @@
 name: Hello
-on: push
+on:
+    push:
+        branches:
+            - main
+        paths:
+            - 'sample/*'
+        paths-ignore:
+            - 'sample/**/*.md'
 jobs:
     hello:
         runs-on: ubuntu-latest
